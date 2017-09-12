@@ -32,4 +32,4 @@ function currentLine(line) {
     currentLine.push(`${i + 1}. ${line[i]}`)
   }
     return `The line currently: ${currentLine.join(', ')}`;
-}
+}l
