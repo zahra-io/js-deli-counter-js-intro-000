@@ -12,3 +12,5 @@ function takeANumber(line, name) {
   // return the position in line
   return `Welcome, ${name}. You are number ${line.length} in line.`
 };
+
+
