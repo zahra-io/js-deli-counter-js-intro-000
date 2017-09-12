@@ -26,6 +26,6 @@ function currentLine(line) {
     return "The line is currently empty."
   }
 
-  var currentLine = 
+  var currentLine = [];
   return "The line is currently: "
 }
