@@ -20,3 +20,7 @@ function nowServing(line) {
   } // return & then remove the first individual from the line
     return `Currently serving ${line.shift()}.`;
 };
+
+function currentLine(line) {
+  
+}
