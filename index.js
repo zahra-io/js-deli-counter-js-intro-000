@@ -17,5 +17,7 @@ function nowServing(line) {
   // returns line is empty is no one is on line
   if (!line.length) {
     return "There is nobody waiting to be served!";
-  } else if (line.shift())
+  } else if (line.shift()) {
+    return `Currently serving ${line.length};`
+  }
 }
