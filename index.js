@@ -16,6 +16,6 @@ function takeANumber(line, name) {
 function nowServing(line) {
   // returns line is empty is no one is on line
   if (!line.length) {
-    return "There is nobody waiting to be served!"
-  }
+    return "There is nobody waiting to be served!";
+  } else if (line.)
 }
