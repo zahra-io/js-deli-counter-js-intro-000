@@ -13,6 +13,9 @@ function takeANumber(line, name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`
 };
 
-function nowServing(name) {
-  if(!name)
+function nowServing(line) {
+  // returns line is empty is no one is on line
+  if (!line.length) {
+    return "There is nobody waiting to be served!"
+  }
 }
