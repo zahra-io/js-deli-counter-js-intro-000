@@ -18,6 +18,6 @@ function nowServing(line) {
   if (!line.length) {
     return "There is nobody waiting to be served!";
   } else if (line.shift()) {
-    return `Currently serving ${line.length};`
+    return `Currently serving ${line.length}`;
   }
 }
