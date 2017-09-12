@@ -14,5 +14,5 @@ function takeANumber(line, name) {
 };
 
 function nowServing(name) {
-  var emptyLine = 
+  if(!name)
 }
